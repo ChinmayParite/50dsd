@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+
+:root{
+    --bg--color: #000 ;
+    --second-bg-color: #eaeaea ;
+    --text-color:  #B8C0FF;
+    --main-color: #333333;
+    
+}
+
+html{
+    font-size: 64%;
+    overflow-x: hidden;
+}
+
+/* ------------------- landing & intro page -------------------  */
+
+body{
+    background: var(--bg--color);
+    color: var(--text-color);
+}
+
+.intro-page{
+    background-color: var(--bg--color);
+    color: var(--text-color);
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 0% 2rem;
+    color: var(--text-color);
+}
+
+.Landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing-page h1{
+    font-size: 6.2rem;
+    font-weight: 900;
+    font-family: 'Orelega One';
+    margin-bottom: 30px;
+    color: #C8B6FF;
+}
+
+.Landing-page p{
+    font-size: 1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-container{
+    margin-bottom: 100px;
+}
+
+.button-container {
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.1px; /* Adjust the value to control the space between buttons */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #FFD6FF;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: #000;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    font-family: "golos text";
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #BBD0FF;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: #000;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    font-family: "golos text";
+}
+
+.btn1:hover{
+    box-shadow: none;
+}
+
+.intro-page h2{
+
+    font-size: 4.6rem;
+    font-weight: 1000;
+    font-family: 'Orelega One';
+    margin-top: 15px;
+    color: #C8B6FF;
+    margin-left: 100px;
+}
+
+.intro-page p{
+
+    font-size: 2.0rem;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 19px;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+
+.intro-page h3{
+
+    font-size: 4.2rem;
+    font-weight: 1000;
+    font-family: 'Orelega One';
+    margin-top: 50px;
+    color: #C8B6FF;
+    margin-left: 100px;
+}
+
+.intro-page img{
+    margin-top: 50px;
+    margin-left: 400px;
+   
+}
+
+
+/* ----------------------- intro1 page  ----------------------- */
+
+
+.intro1{
+   
+    background-color: #B8C0FF ;
+    margin-top: 19px;
+}
+
+.intro1-content h1{
+
+    font-size: 4.2rem;
+    font-weight: 1000;
+    font-family: 'Orelega One';
+    color: #000;
+    margin-left: 70px;
+}
+
+.intro1-content p{
+    font-size: 2.0rem;
+    font-weight: 500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+    margin-left: 120px;
+    margin-right: 150px;
+    color: #000;
+}
+
+.intro1-page img{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.intro1-content h2{
+    font-size: 2.8rem;
+    font-weight: 1000;
+    font-family: 'Orelega One';
+    margin-top: 40px;
+    color: #000;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.below-content p{
+    font-size: 2.0rem;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+    margin-left: 650px;
+    
+    color: #000;
+}
+
+.images-container img{
+    margin-left: 400px;
+}
+
+.outro h2{
+    font-size: 4.6rem;
+    font-weight: 1000;
+    font-family: 'Orelega One';
+    margin-top: 100px;
+    color: #000;
+    margin-left: 100px;
+}
+
+.outro p{
+    margin-right: 280px;
+}
+
+.more-outro h2{
+    font-size: 4.4rem;
+    font-weight: 1000;
+    font-family: 'Orelega One';
+    margin-top: 100px;
+    color: #000;
+    margin-left: 620px;
+}
+
+/* styles.css */
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B8C0FF ;
+}
+
+.subscribe-form {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    
+}
+
+.subscribe-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    
+}
+
+.subscribe-form button {
+    background-color: #BBD0FF;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #FFD6FF;
+}
+
+.confirmation {
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+
+/*------------------footer boi----------------*/
+
+.footer {
+    background-color: #B8C0FF;
+}
+
+.social-handles h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    margin-left: 570px;
+    font-size: 19px;
+
+}
+
+.social-media {
+    margin-left: 684px;
+
+}
+
+.social-media a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 55%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+    
+    
+}
+
+.social-media a:hover{
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
