@@ -317,3 +317,173 @@ section{
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
+
+/*------------------mobile boi-------------------*/
+
+/* Styles for mobile screens (up to 809px) */
+@media (max-width: 809px){
+    body {
+        background: var(--bg--color);
+        color: var(--text-color);
+        max-width: 390vw;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .intro-page {
+        background-color: var(--bg--color);
+        color: var(--text-color);
+    }
+
+    section {
+        min-height: auto; 
+        padding: 10rem 0rem 5%; 
+
+    }
+
+    .Landing-page h1 {
+        font-size: 3rem; 
+        margin-bottom: 20px; 
+    }
+
+    .landing-container {
+        margin-bottom: 50px; 
+    }
+
+    .button-container {
+        justify-content:baseline;
+        margin: 10px 0;
+    }
+
+    .btn,
+    .btn1 {
+        padding: 1rem 2rem; 
+        font-size: 1.4rem; 
+    }
+
+    .intro-page h2 {
+        font-size: 2.8rem; 
+        margin-top: 10px; 
+        margin-left: 10px;
+    }
+
+    .intro-page p {
+        font-size: 1.6rem; 
+        margin-top: 15px; 
+        line-height: 2.4rem; 
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .intro-page h3 {
+        font-size: 2.4rem; 
+        margin-top: 30px; 
+        margin-left: 10px;
+    }
+
+    .intro-page img {
+        margin-top: 30px; 
+        margin-left: auto;
+        margin-right: 30px;
+        display: block;
+        width: 300px;
+    }
+
+    .intro1 {
+        /* Adjust the background color and margins for mobile */
+        background-color: #B8C0FF;
+        margin-top: 10px;
+    }
+
+    .intro1-content h1 {
+        /* Adjust font size and margin for mobile */
+        font-size: 3rem;
+        margin-left: 20px;
+    }
+
+    .intro1-content p {
+        /* Adjust font size and margins for mobile */
+        font-size: 1.6rem;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .intro1-page img {
+        /* Adjust margins for mobile */
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 300px;
+    }
+
+    .intro1-content h2 {
+        /* Adjust font size and margins for mobile */
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .below-content p {
+        /* Adjust font size and margins for mobile */
+        font-size: 1.6rem;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .images-container img {
+        /* Adjust margins for mobile */
+        margin-left: 20px;
+    }
+
+    .outro h2 {
+        /* Adjust font size and margins for mobile */
+        font-size: 3rem;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .outro p {
+        /* Adjust margins for mobile */
+        margin-right: 20px;
+    }
+
+    .more-outro h2 {
+        /* Adjust font size and margins for mobile */
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer {
+        /* Adjust background color and padding for mobile */
+        background-color: #B8C0FF;
+        padding: 20px;
+    }
+
+    .social-handles h2 {
+        /* Adjust font size and margin for mobile */
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .social-media {
+        /* Adjust margin for mobile */
+        margin-left: 20px;
+    }
+
+    .social-media a {
+        /* Adjust width, height, and margin for mobile */
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem 1rem 1rem 0;
+    }
+
+}
+
+
+/* Common styles for tablet and desktop screens */
+@media (min-width: 391px) {
+    /* Add your tablet and desktop styles here */
+}
