@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital System Design</title>
 
-    <link rel="stylesheet" href="wanker.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="bxs-leaf.svg" type="image/x-icon">
     
 
@@ -41,19 +41,62 @@
         <div class="intro-page">
 
             <div class="intro-content">
+
+                <p>Different circuit configurations and production technologies are used during the production of digital integrated circuits. Each of these approaches is called a specific Logic Families. Now the idea of having different approaches or different logic families is that each ICs of same family when fabricated will have identical electrical characteristics. The characteristics which are bound to be identical are supply voltage range, speed of response, dissipation of power, input and output logic levels, current sinking capability, current sourcing capability, noise margin, fan-out etc.</p>
+                
                 <h2><strong>What are Logic Families</strong> </h2>
         
                 <p>
                     Logic families are groups of logic circuits that are based on particular types of elements (resistors, transistors, and so forth).
                     Families are identified by the manner in which the elements are connected, and, in some cases, by the types of elements used.
                 </p>
-    
+
+                <h2><strong>
+                    Significance of Logic Families</strong>
+                </h2>
+
+                <p>
+                    When we talk about digital systems actually the digital ICs are the ones which make up the whole system. And if all the ICs are of same logic family then they are compatible to each other and the intended logic functions are performed and the goal is achieved.
+But in case ICs belonging to different logic families are used in a digital system then to ensure compatibility interfacing techniques must be used. And that is the reason why we must understand different logic families and use the best combination of ICs during the design of a digital system. Now the question arises what might be the consequence of choosing wrong combinations of ICs. The answer is that it may not match the necessary capability needed.
+                </p>
+
+                
+                <h2>Classification of logic families</h2>
+
+                <img src="https://i0.wp.com/easyelectronics.co.in/wp-content/uploads/2023/07/Classification-of-logic-families.png?resize=840%2C401&is-pending-load=1#038;ssl=1" alt="">
+                
+                <p>The two basic techniques for manufacturing ICs are:
+                </p>
+
+                <p>
+                    
+                    1.Bipolar Technology    2.Metal oxide semiconductor (MOS) technology.
+                    
+                </p>
+
+                <h3><strong>Bipolar Families</strong></h3>
+
+                <p>The bipolar families of logic circuits construct, especially from components fabricate bipolar transistors on the chip.
+                    In the bipolar category, there are three basic families called Diode transistor logic(DTL), Transistor Transistor Logic(TTL), and Emitter Coupled Logic (ECL).
+                    DTL uses diodes and transistors, TTL uses transistors almost exclusively, TTL has become the most popular family in SSI (Small scale integration) and MSI(medium-scale integration) chips, while ECL is the fastest logic family which is used for high-speed applications.</p>
+                    
+                <h3><strong>MOS Families</strong></h3>
+
+                <p>The MOS family fabricates the MOS field effect transistors (MOSFETs).
+                    In the MOS category, there are three logic families namely PMOS(p-channel MOSFETs) family, NMOS(n-channel MOSFET) family, and CMOS(Complementary MOSFET) family.
+                    PMOS is the oldest and slowest type. NMOS is used for LSI(large-scale integration) field for microprocessors and memories.
+                    CMOS which uses a push-pull arrangement of n-channel and p-channel MOSFETs is extensively used where low power consumption is needed such as in pocket calculators.</p>
+                
+                <p><strong>TTL is an example of saturated bipolar logic.</strong></p>
+                <p>In the unsaturated bipolar logic, the bipolar transistor is not driven into hard saturation. This increases the speed of operation.</p>
+                <p>So, the unsaturated bipolar ICs such as Schottky TTL and ECL are much faster as compared to TTL.</p>
+                <p>All these ICs are fabricated on silicon chips using different fabrication technologies.</p>
+
+
                 <h3><strong>CMOS v/s TTL</strong></h3>
 
                 <p>
                     There are two different types of computer chips: CMOS and TTL. CMOS stands for complementary metal-oxide-semiconductor. TTL stands for transistor-transistor logic. They’re both oftentimes used to make microchips. However, they’re both different and serve different functions. To learn more about the difference between CMOS and TTL, we must understand its functioning.
-
-                    
                 </p>
 
                 <p>
