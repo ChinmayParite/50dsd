@@ -111,9 +111,10 @@ section{
     font-size: 4.6rem;
     font-weight: 1000;
     font-family: 'Orelega One';
-    margin-top: 15px;
+    margin-top: 20px;
     color: #C8B6FF;
     margin-left: 100px;
+    margin-bottom: 10px;
 }
 
 .intro-page p{
@@ -126,6 +127,7 @@ section{
     line-height: 3rem;
     margin-left: 100px;
     margin-right: 150px;
+    margin-bottom: 24px;
 }
 
 
@@ -142,6 +144,7 @@ section{
 .intro-page img{
     margin-top: 50px;
     margin-left: 400px;
+    margin-bottom: 50px
    
 }
 
@@ -320,6 +323,7 @@ section{
 
 /*------------------mobile boi-------------------*/
 
+/* Styles for mobile screens (up to 809px) */
 @media (max-width: 809px){
     body {
         background: var(--bg--color);
@@ -389,18 +393,19 @@ section{
     }
 
     .intro1 {
-       
+        /* Adjust the background color and margins for mobile */
         background-color: #B8C0FF;
         margin-top: 10px;
     }
 
     .intro1-content h1 {
-      
+        /* Adjust font size and margin for mobile */
         font-size: 3rem;
         margin-left: 20px;
     }
 
     .intro1-content p {
+        /* Adjust font size and margins for mobile */
         font-size: 1.6rem;
         margin-top: 20px;
         margin-left: 20px;
@@ -408,12 +413,14 @@ section{
     }
 
     .intro1-page img {
+        /* Adjust margins for mobile */
         margin-top: 20px;
         margin-left: 20px;
         width: 300px;
     }
 
     .intro1-content h2 {
+        /* Adjust font size and margins for mobile */
         font-size: 2rem;
         margin-top: 20px;
         margin-left: 20px;
@@ -421,26 +428,31 @@ section{
     }
 
     .below-content p {
+        /* Adjust font size and margins for mobile */
         font-size: 1.6rem;
         margin-top: 20px;
         margin-left: 20px;
     }
 
     .images-container img {
+        /* Adjust margins for mobile */
         margin-left: 20px;
     }
 
     .outro h2 {
+        /* Adjust font size and margins for mobile */
         font-size: 3rem;
         margin-top: 20px;
         margin-left: 20px;
     }
 
     .outro p {
+        /* Adjust margins for mobile */
         margin-right: 20px;
     }
 
     .more-outro h2 {
+        /* Adjust font size and margins for mobile */
         font-size: 2rem;
         margin-top: 20px;
         margin-left: 20px;
@@ -448,20 +460,24 @@ section{
     }
 
     .footer {
+        /* Adjust background color and padding for mobile */
         background-color: #B8C0FF;
         padding: 20px;
     }
 
     .social-handles h2 {
+        /* Adjust font size and margin for mobile */
         font-size: 16px;
         margin-left: 20px;
     }
 
     .social-media {
+        /* Adjust margin for mobile */
         margin-left: 20px;
     }
 
     .social-media a {
+        /* Adjust width, height, and margin for mobile */
         width: 3rem;
         height: 3rem;
         margin: 1rem 1rem 1rem 0;
@@ -469,3 +485,8 @@ section{
 
 }
 
+
+/* Common styles for tablet and desktop screens */
+@media (min-width: 391px) {
+    /* Add your tablet and desktop styles here */
+}
